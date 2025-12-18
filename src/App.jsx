@@ -6,6 +6,7 @@ import Hello from './Hello'
 import Welcome from './18122025/Welcome'
 import Counter from './18122025/Funstate'
 import Classcounter from './18122025/Classcounter'
+import Greeting from './18122025/Testing'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,6 +16,7 @@ function App() {
        <Welcome/>
        <Counter/>
        <Classcounter/>
+       <Greeting/>
     </>
   )
 }
