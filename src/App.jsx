@@ -7,16 +7,21 @@ import Welcome from './18122025/Welcome'
 import Counter from './18122025/Funstate'
 import Classcounter from './18122025/Classcounter'
 import Greeting from './18122025/Testing'
+import Dothis from './19122025/todo'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <> <Hello/> 
-       <Welcome/>
+     <>
+      {/* <Hello/> 
+        <Welcome/>
        <Welcome/>
        <Counter/>
        <Classcounter/>
-       <Greeting/>
+       <Greeting/> */}
+       
+       <Dothis/>
+
     </>
   )
 }
