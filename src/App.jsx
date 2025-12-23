@@ -9,15 +9,16 @@ import Classcounter from './18122025/Classcounter'
 import Greeting from './18122025/Testing'
 import Dothis from './19122025/todo'
 import Child from'./22122025/pro'
-// function App() {//props using function
+import Application from './22122025/Classprops'
+//function App() {//props using function
 //   const [count, setCount] = useState(0)
 //   const products = [
 //     { id: 1, name: "Laptop", price: 55000 },
 //     { id: 2, name: "Mobile", price: 25000 },
 //     { id: 3, name: "Headphones", price: 3000 },
 //   ];
-//   return (
-//      <>
+// return (
+//    <>
 //       <Hello/>             //sample
 //        <Counter/>         //function usestate
 //        <Classcounter/>  //class state
@@ -38,35 +39,9 @@ import Child from'./22122025/pro'
 
 
 //props using class
-import React from 'react';//props using class
-class App extends React.Component{
-  constructor(props){
-    super(props);
-    this.state={
-        products:[
-   { id: 1, name: "Laptop", price: 55000 },
-   { id: 2, name: "Mobile", price: 25000 },
-    { id: 3, name: "Headphones", price: 3000 },
-   ]
-    };
-  }
-  render(){
-    return (
-     <>
-        <div>
-          <h1>Online Store</h1>
-          {this.state.products.map((p)=>(           
-             <Child key={p.id}
-            name={p.name}
-            price={p.price}
-           />          ))}
-        </div>
-    </>
-  );
+function App() {
+  return (
+      <Application/>
+  )
 }
-}
-export default App
-
-
-
-
+export default App;
