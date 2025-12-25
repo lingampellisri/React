@@ -12,7 +12,8 @@ import Child from'./22122025/pro'
 import Application from './22122025/Classprops'
 import FunEffect from './23122025/FunEffect'
 import MapReduceFilter from './23122025/MapReduceFilter'
-function App() {//props using function
+import Funcontext from './24122025/Funcontext'
+function App() {
    const [count, setCount] = useState(0)
  return (
   <>
@@ -24,6 +25,7 @@ function App() {//props using function
       <Application/>
       <FunEffect/>
       <MapReduceFilter/>
+      <Funcontext/>
       </>
   )
 }
