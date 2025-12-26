@@ -1,0 +1,85 @@
+.page{
+          min-height:"100vh";
+          background-color: rgb(242, 240, 255);
+          display: "flex";
+          justify-content: "center";
+          align-items: "center";
+          padding: "20px";
+  }
+.form { 
+  background-color: rgba(255, 255, 255, 0);
+  padding: 30px; width: 500px; 
+  border-radius: 10px;
+ box-shadow: 0 8px 20px rgba(9, 9, 9, 0.1);
+ }
+ .heading {
+  text-align: center;
+  color: rgb(81, 65, 225);
+  margin-bottom: 20px;
+}
+.field {
+  display: flex;              
+  align-items: center;        
+  margin-bottom: 14px;
+  align-items: flex-start;
+}
+.field label {
+  width: 200px;        
+  text-align: right;  
+  margin-right: 20px; 
+  font-weight: 500;
+}
+.field input {
+  flex:1;
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.emailRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.emailRow input {
+  flex: 1;                     
+}
+.emailContainer {
+  flex: 1;                     
+}
+.addBtn {
+  background-color: lavender;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.deleteBtn {
+  background-color: lightcoral;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.radio {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0;
+}
+.submitBtn {
+  width: 100%;
+  background-color: royalblue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.errorBox {
+  margin-top: 15px;
+  background-color: mistyrose;
+  padding: 10px;
+  border-radius: 6px;
+  color: darkred;
+}
