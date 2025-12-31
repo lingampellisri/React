@@ -19,6 +19,8 @@ import MapReduceFilter from './23122025/MapReduceFilter'
 import Funcontext from './24122025/Funcontext'
 import Registration from './25122025/Registration'
 import Success from './25122025/Success'
+import Login from './29122025/Funref'
+import Products from './29122025/usememo'
 function App() {
    const [count, setCount] = useState(0)
  return (
@@ -32,13 +34,16 @@ function App() {
       <FunEffect/>
       <MapReduceFilter/>
       <Funcontext/> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <Routes>
         <Route path="/" element={<Registration/>}/>
         <Route path="/Success" element={<Success/>}/>
       </Routes>
       </BrowserRouter>
-      </>
+      </> */}
+      <Login/>
+      <Products/>
+    </>
   );
 }
 export default App;
